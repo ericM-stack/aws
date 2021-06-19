@@ -1,0 +1,109 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "ed65624f-1116-4b7c-bbcc-a5abc9bc9f9a": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 50,
+                    "y": 60
+                },
+                "z": 0
+            },
+            "9bf44d4a-ba5e-4ee4-9595-2ffe5dfb36fe": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 150,
+                    "y": 70
+                },
+                "z": 0
+            },
+            "74650338-f398-4c03-9d0d-d97910d30752": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 252,
+                    "y": 71
+                },
+                "z": 0
+            },
+            "db568d3a-6975-4a60-83d2-d15dd67ef43f": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 340,
+                    "y": 72
+                },
+                "z": 0
+            },
+            "9de84935-2fb7-4afa-8d35-27e4817aaeae": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 49,
+                    "y": 173
+                },
+                "z": 0
+            }
+        }
+    },
+    "Resources": {
+        "ASDCTN50": {
+            "Type": "AWS::AppStream::DirectoryConfig",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "ed65624f-1116-4b7c-bbcc-a5abc9bc9f9a"
+                }
+            }
+        },
+        "ASF4N2HU": {
+            "Type": "AWS::AppStream::Fleet",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "9bf44d4a-ba5e-4ee4-9595-2ffe5dfb36fe"
+                }
+            }
+        },
+        "ASIB2B824": {
+            "Type": "AWS::AppStream::ImageBuilder",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "74650338-f398-4c03-9d0d-d97910d30752"
+                }
+            }
+        },
+        "ASS1ENJ0": {
+            "Type": "AWS::AppStream::Stack",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "db568d3a-6975-4a60-83d2-d15dd67ef43f"
+                }
+            }
+        },
+        "ASSFA1NLQ0": {
+            "Type": "AWS::AppStream::StackFleetAssociation",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "9de84935-2fb7-4afa-8d35-27e4817aaeae"
+                }
+            }
+        }
+    }
+}
